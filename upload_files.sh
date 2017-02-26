@@ -1,7 +1,7 @@
 #!/bin/bash
 cd ${0%/*}/files
 
-setup cdh-5.6
+source /usr/local/sbin/setup.sh cdh-5.6
 
 for i in $(seq -f "%02g" 0 1)
 do
