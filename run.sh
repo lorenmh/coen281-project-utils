@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ${0%/*}/files
+cd ${0%/*}
 
 set -e
 
