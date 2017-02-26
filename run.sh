@@ -4,6 +4,7 @@ cd ${0%/*}
 set -e
 
 hfile='posts_all.json'
+>$hfile
 
 for i in $(seq -f "%02g" 0 49)
 do
