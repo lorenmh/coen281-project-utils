@@ -11,6 +11,7 @@ do
   jsname="$fname.json"
   gzname="$jsname.gz"
   upname="posts_2016_$i.json"
+  echo "on file $fname"
   curl -O 'https://storage.googleapis.com/coen281-posts-2016-gz/'$fname'.json.gz'
   gunzip $gzname
   hadoop fs -copyFromLocal $jsname $upname
