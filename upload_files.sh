@@ -3,7 +3,7 @@ cd ${0%/*}/files
 
 source /usr/local/sbin/setup.sh cdh-5.6
 
-for i in $(seq -f "%02g" 0 1)
+for i in $(seq -f "%02g" 0 49)
 do
   fname='posts-2016-0000000000'$i'.json'
   uname="posts_2016_$i.json"
